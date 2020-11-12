@@ -1,0 +1,162 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 50%;
+	margin: auto;
+	overflow: hidden;
+}
+#branding img{
+margin-top:30px;
+}
+
+
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 0;
+}
+header #branding{
+float: left;	
+}
+header nav{
+	float: right;
+	margin-top: 40px;
+}
+h2{
+	margin-top: 40px;
+	padding: 30px;
+	
+}
+p{
+	margin-bottom: 20px;
+	position: relative;
+	left: 20px;
+}
+
+img .mi{
+border: 10px;
+}
+.title-image{
+	width: 350px;
+	position:relative;
+	left: 20%;
+	margin-top: 40px;
+
+}
+.button{
+	height: 40px;
+	background: #3f70f5;
+	border: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+	position: relative;
+	left: 50px;
+	color: white;
+	
+}
+
+input[type="email"]{
+padding: 20px;
+height: 25px;
+width: 250px;
+position: relative;
+left: 30px;
+}
+
+#imed{
+	background-color: #f9f8fe; 
+	position: relative;
+	margin-top: 200px;
+	
+}
+
+#imed:before{
+   background-image: url('../img/bg-curve-desktop.svg');
+   bottom: 100%;
+   content: '';
+   height: 103px;
+   position: absolute;
+   width: 100%;
+}
+.title{
+	width: 70%;
+}
+ .green{
+	color: green;
+	font-family: serif;
+	font-size: 100%;
+}
+
+
+hr{
+	color: green;
+	width: 10;
+}
+
+
+#newsletter{
+	padding: 70px;
+	color: white;
+	background: #575988;
+}
+
+#newsletter h1{
+	float: left;
+}
+#newsletter form{
+	float:right;
+	margin-top:5px;
+}
+
+#newsletter input[type="email"]{
+padding: 4px;
+height: 45px;
+width: 350px;
+}
+
+#mint{
+	padding: 70px;
+	background: #07043b;
+	background: cover;
+	
+	margin-right: 20px;
+}
+
+#mint li{
+	font-size:150%;
+	color: white;
+	font-family:tahoma;
+	margin-top: 20px;
+	}
+
+	#mint i{
+		font-size:150%;
+		color: white;
+	
+		}
+
+#mint h4{
+	color: white;
+}
+
+footer{
+	font-weight: bold;
+	color: white;
+}
+
+@media(max-width: 1028px){
+	
+	#title{
+		text-align: center;
+	}
+
+
+
+.title-image{
+  position: static;
+  transform: rotate(0);
+}
+}
